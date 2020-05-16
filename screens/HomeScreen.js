@@ -20,11 +20,6 @@ export default HomeScreen = ({ navigation }) => {
 
   useEffect(() => { //* useEffect の導入
     fetchArticle();
-    // const timer = setTimeout(() => { 
-    // alert(Constants.manifest.extra.newsApiKey) //! API KEY がとれてるか alert で確認してみる
-    //   setArticles(dummyArticles)
-    // }, 2000);
-    // return () => clearTimeout(timer) //* timer をクリーンアップする
   }, []) //* 空の配列を渡すとマウント時のみ発火する設定になる
 
 
@@ -45,7 +40,7 @@ export default HomeScreen = ({ navigation }) => {
           imageUrl={ item.urlToImage }
           title={ item.title }
           author={ item.author }
-          onPress={() => navigation.navigate("Article")} //*component.name
+          onPress={() => navigation.navigate("Article", { article: item })} //*component.name
         />
       )}
       keyExtractor={(item, index) => index.toString()}
