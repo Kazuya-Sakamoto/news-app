@@ -42,7 +42,16 @@ expo install react-native-webview
 ### Redux
 <img width="1023" alt="スクリーンショット 2020-05-16 19 12 57" src="https://user-images.githubusercontent.com/56709557/82117136-4e785e80-97a9-11ea-8e07-2a0405f0b522.png">
 
+```
+yarn add redux
+```
 
+**react-native-debugger**
+```
+ brew update && brew cask install react-native-debugger
+ ```
+ 
+>https://github.com/jhen0409/react-native-debugger
 
 # React Nativeとは
 <div align="center">
