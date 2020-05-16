@@ -12,8 +12,11 @@ expo install expo-constants
 ```
 yarn add axios
 ```
-
 >https://github.com/axios/axios
+
+**api**
+>https://newsapi.org/
+
 
 # React Nativeとは
 <div align="center">
