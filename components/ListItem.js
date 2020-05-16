@@ -32,11 +32,14 @@ const ListItem = ({ imageUrl, title, author }) => {
   return (
     <View style={styles.itemContainer}>
       <View style={styles.leftContainer}>
-      <Image
-        style={{ width: 100, height: 100 }}
-        source={{uri: imageUrl}} 
-      />
-      </View>
+        {/* image url がなかったら falseにする */}
+        {!! imageUrl &&( 
+          <Image
+            style={{ width: 100, height: 100 }}
+            source={{uri: imageUrl}} 
+          />
+        )}
+        </View>
       <View style={styles.rightContainer}>
         <Text numberOfLines={3} style={styles.text}>{/* 3行以上は..... */}
         {title}
