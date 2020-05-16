@@ -39,6 +39,11 @@ expo install react-native-webview
 ```
 >https://docs.expo.io/versions/latest/sdk/webview/
 
+### Redux
+<img width="1023" alt="スクリーンショット 2020-05-16 19 12 57" src="https://user-images.githubusercontent.com/56709557/82117136-4e785e80-97a9-11ea-8e07-2a0405f0b522.png">
+
+
+
 # React Nativeとは
 <div align="center">
 <img src="https://vitalify.jp/blog/wp-content/uploads/2019/10/reactnative.png" alt="属性" title="タイトル">
