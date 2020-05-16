@@ -1,51 +1,44 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
-import ListItem from './components/ListItem';
-import articles from './dummies/article.json'
+import ListItem from './components/ListItem'; //* component の import
+import dummyArticles from './dummies/article.json'  //* dummyData を取得
+import Constants from 'expo-constants'
+import axios from 'axios'
+
+const URL = `https://newsapi.org/v2/top-headlines?country=jp&apiKey=${Constants.manifest.extra.newsApiKey}`;
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1, //* resetCss 同様画面いっぱい 
     backgroundColor: '#fff',
   },
-  itemContainer: {
-    height: 100,
-    width: '100%',
-    borderColor: 'gray',
-    borderWidth: 1,
-    flexDirection: "row" //*横並び  //*column 縦並び 
-  },
-  leftContainer: {
-    width: 100
-  },
-  rightContainer: {
-    flex: 1, //* スペースを使い切る
-    padding: 10, 
-    justifyContent: "space-between", //* 間を開ける 
-  },
-  text:{
-    fontSize: 16
-  },
-  subText: {
-    fontSize: 12,
-    color: 'gray'
-  }
 });
 
 export default function App() {
-  // ? 一覧表示 変数
-  // const items = articles.map((article, index) => {return(
-  // <ListItem
-  //   imageUrl={article.urlToImage}
-  //   title={article.title}
-  //   author={article.author}
-  //   key={index}
-  // />
-  // )})
+  const [articles, setArticles] = useState(); //*state　導入
+  useEffect(() => { //* useEffect の導入
+    fetchArticle();
+    // const timer = setTimeout(() => { 
+    // alert(Constants.manifest.extra.newsApiKey) //! API KEY がとれてるか alert で確認してみる
+    //   setArticles(dummyArticles)
+    // }, 2000);
+    // return () => clearTimeout(timer) //* timer をクリーンアップする
+  }, []) //* 空の配列を渡すとマウント時のみ発火する設定になる
+
+
+  const fetchArticle = async () => {
+    try {
+      const response = await axios.get(URL);
+      setArticles(response.data.articles);
+    } catch (error) {
+      console.error(error);
+    }
+  }
   return (
     <SafeAreaView style={styles.container}>
     <FlatList
-      data={articles} //dataの配列を入れる
+      data={articles} //*dataの配列を入れる
       renderItem={({ item }) =>( 
         <ListItem
           imageUrl={item.urlToImage}
