@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
-import ListItem from './components/ListItem';
-import dummyArticles from './dummies/article.json'
+import ListItem from './components/ListItem'; //* component の import
+import dummyArticles from './dummies/article.json'  //* dummyData を取得
+import Constants from 'expo-constants'
 
 const styles = StyleSheet.create({
   container: {
@@ -14,6 +15,7 @@ export default function App() {
   const [articles, setArticles] = useState(); //*state　導入
   useEffect(() => { //* useEffect の導入
     const timer = setTimeout(() => { 
+      // alert(Constants.manifest.extra.newsApiKey) //! API KEY がとれてるか alert で確認してみる
       setArticles(dummyArticles)
     }, 2000);
     return () => clearTimeout(timer) //* timer をクリーンアップする
