@@ -15,7 +15,7 @@ yarn add axios
 
 >https://github.com/axios/axios
 
-# React とは
+# React Nativeとは
 <div align="center">
 <img src="https://vitalify.jp/blog/wp-content/uploads/2019/10/reactnative.png" alt="属性" title="タイトル">
 </div>
