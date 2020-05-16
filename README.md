@@ -2,7 +2,7 @@
 ReactNative
 
 
-** expo constants**
+**expo constants**
 ```
 expo install expo-constants
 ```
