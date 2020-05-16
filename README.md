@@ -24,8 +24,20 @@ yarn add @react-navigation/native
 ```
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
-
+```
+yarn add @react-navigation/stack
+```
 >https://reactnavigation.org/docs/getting-started
+
+
+**TouchableOpacity**
+>https://reactnative.dev/docs/touchableopacity
+
+**React Native WebView**
+```
+expo install react-native-webview
+```
+>https://docs.expo.io/versions/latest/sdk/webview/
 
 # React Nativeとは
 <div align="center">
