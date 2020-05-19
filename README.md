@@ -62,6 +62,19 @@ yarn add redux
  
 >https://github.com/jhen0409/react-native-debugger
 
+### Navbar の作成
+
+```
+yarn add @react-navigation/bottom-tabs
+```
+>https://reactnavigation.org/docs/bottom-tab-navigator
+
+### Redux-Persist ローカルストレージにデータ保存
+```
+ yarn add redux-persist
+```
+>https://github.com/rt2zz/redux-persist
+
 # React Nativeとは
 <div align="center">
 <img src="https://vitalify.jp/blog/wp-content/uploads/2019/10/reactnative.png" alt="属性" title="タイトル">
