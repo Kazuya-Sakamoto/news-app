@@ -1,7 +1,8 @@
 # news-app
 ReactNative
 
-
+## Desgin
+![スクリーンショット 2020-05-19 22 32 46](https://user-images.githubusercontent.com/56709557/82332833-db791d00-9a20-11ea-9000-ed467a1e3805.png)![スクリーンショット 2020-05-19 22 32 55](https://user-images.githubusercontent.com/56709557/82332885-ee8bed00-9a20-11ea-81e7-0058b3a0c173.png)
 
 **expo constants**
 ```
