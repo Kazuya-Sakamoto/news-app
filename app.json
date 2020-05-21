@@ -22,7 +22,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.first.news-app"
     },
     "extra": { 
       "newsApiKey": "37040b19cee94bfba79b32b57b4e1098"
