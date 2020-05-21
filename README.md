@@ -77,6 +77,12 @@ yarn add @react-navigation/bottom-tabs
 ```
 >https://github.com/rt2zz/redux-persist
 
+### 社内で確認
+**buildコマンド**
+```
+expo publish
+```
+
 # React Nativeとは
 <div align="center">
 <img src="https://vitalify.jp/blog/wp-content/uploads/2019/10/reactnative.png" alt="属性" title="タイトル">
