@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 
 export default HomeScreen = ({ navigation }) => {
 
-  const [articles, setArticles] = useState(); //*state　導入
+  const [articles, setArticles] = useState([]); //*state　導入
   const [loading, setLoading] = useState(false);
 
   useEffect(() => { //* useEffect の導入
@@ -50,7 +50,7 @@ export default HomeScreen = ({ navigation }) => {
       )}
       keyExtractor={(item, index) => index.toString()}
     />
-    { loading && <Loading/> } //* loading が true の時だけ呼ぶ
+    { loading && <Loading />}
     </SafeAreaView>
   );
 }
