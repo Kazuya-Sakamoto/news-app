@@ -3,7 +3,10 @@ ReactNative
 
 
 ## Desgin
-![スクリーンショット 2020-05-19 22 32 46](https://user-images.githubusercontent.com/56709557/82332833-db791d00-9a20-11ea-9000-ed467a1e3805.png)![スクリーンショット 2020-05-19 22 32 55](https://user-images.githubusercontent.com/56709557/82332885-ee8bed00-9a20-11ea-81e7-0058b3a0c173.png)
+![スクリーンショット 2020-05-23 18 38 56](https://user-images.githubusercontent.com/56709557/82727345-e4216a00-9d24-11ea-86cc-2d1b89f0cc4a.png)![スクリーンショット 2020-05-23 18 39 10](https://user-images.githubusercontent.com/56709557/82727349-e7b4f100-9d24-11ea-8e01-0f3d0986dd55.png)
+![スクリーンショット 2020-05-23 18 39 28](https://user-images.githubusercontent.com/56709557/82727378-192dbc80-9d25-11ea-921d-ce83f9e540f0.png)
+![スクリーンショット 2020-05-23 18 39 49](https://user-images.githubusercontent.com/56709557/82727380-1a5ee980-9d25-11ea-9cc6-f79777f0c49c.png)
+
 
 **expo constants**
 ```
