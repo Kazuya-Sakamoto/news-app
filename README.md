@@ -9,7 +9,6 @@ ReactNative
 ![スクリーンショット 2020-05-23 18 39 28](https://user-images.githubusercontent.com/56709557/82727378-192dbc80-9d25-11ea-921d-ce83f9e540f0.png)
 ![スクリーンショット 2020-05-23 18 39 49](https://user-images.githubusercontent.com/56709557/82727380-1a5ee980-9d25-11ea-9cc6-f79777f0c49c.png)
 
-
 **expo constants**
 ```
 expo install expo-constants
