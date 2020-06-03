@@ -1,7 +1,6 @@
 # news-app
 ReactNative
 
-
 **Wikiにメモ記載**
 
 ## Desgin
