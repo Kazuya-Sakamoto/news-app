@@ -3,6 +3,7 @@ ReactNative
 
 **Wikiにメモ記載**
 
+
 ## Desgin
 ![スクリーンショット 2020-05-23 18 38 56](https://user-images.githubusercontent.com/56709557/82727345-e4216a00-9d24-11ea-86cc-2d1b89f0cc4a.png)![スクリーンショット 2020-05-23 18 39 10](https://user-images.githubusercontent.com/56709557/82727349-e7b4f100-9d24-11ea-8e01-0f3d0986dd55.png)
 ![スクリーンショット 2020-05-23 18 39 28](https://user-images.githubusercontent.com/56709557/82727378-192dbc80-9d25-11ea-921d-ce83f9e540f0.png)
