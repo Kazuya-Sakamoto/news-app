@@ -1,8 +1,6 @@
 # news-app
 ReactNative
 
-
-
 **Wikiにメモあり**
 
 
