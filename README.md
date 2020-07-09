@@ -100,6 +100,7 @@ React Nativeが登場したのは約2年前ですが、モバイルのUI開発�
 React Nativeは、PhoneGapやCordovaなどのフレームワークと同じカテゴリに分類されますが、これらよりも技術的に優れていると私は思います。
 
 
+
 # React Characteristic
 **1) UIが作りやすい**
 
